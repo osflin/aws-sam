@@ -1,19 +1,18 @@
-# I recommend [AWS ECS](https://github.com/aaronwht/aws-ecs-typescript) for RESTful API services.
+
 
 ### [AWS SAM](https://aws.amazon.com/serverless/sam/) CRUD App implements S3 picture upload, API Gateway routing, Lambda functions, and a DynamoDB table - locally and easily deploy to AWS.
 
 If you need help getting AWS SAM to run locally you may reference [this tutorial](https://github.com/aaronwht/aws-sam-dynamodb-local).
-
-Please [contact me](https://www.aaronwht.com/) if you run into issues with this source code or these instructions.
+These samples are built from aaronwht projects.
 
 ###### You will need to AWS SAM running locally, along with with DynamoDB, to run this code locally.
 
-This project has a [companion client-side project](https://github.com/aaronwht/aws-sam-client) for UI interactions.
+This project has a [companion client-side project](https://github.com/osflin/aws-sam-client) for UI interactions.
 
 ## Run AWS SAM Locally
 
 Begin by ensuring DynamoDB is running locally using the following command:  
-`docker run -p 8000:8000 -v $(pwd)/local/dynamodb:/data/ amazon/dynamodblocal -jar DynamoDBLocal.jar -sharedDb -dbPath /data` .
+`docker run -p 8000:8000 -v $(pwd)/local/dynamodb:/data/ amazon/dynamodb-local -jar DynamoDBLocal.jar -sharedDb -dbPath /data` .
 
 #### SAM does not create the 'places' DynamoDB table locally
 
