@@ -5,7 +5,7 @@
 If you need help getting AWS SAM to run locally you may reference [this tutorial](https://github.com/aaronwht/aws-sam-dynamodb-local).
 These samples are built from aaronwht projects.
 
-###### You will need to AWS SAM running locally, along with with DynamoDB, to run this code locally.
+###### You will need to have AWS SAM running locally, along with with DynamoDB, to run this code locally.
 
 This project has a [companion client-side project](https://github.com/osflin/aws-sam-client) for UI interactions.
 
